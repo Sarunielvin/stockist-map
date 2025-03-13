@@ -1,0 +1,1027 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_dff0d6d5fc1e261ee175529820a6d874 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_dff0d6d5fc1e261ee175529820a6d874" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_dff0d6d5fc1e261ee175529820a6d874 = L.map(
+                "map_dff0d6d5fc1e261ee175529820a6d874",
+                {
+                    center: [0.0, 25.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_2a8b96564a6421abc51d8d67d9be384a = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_dff0d6d5fc1e261ee175529820a6d874);
+        
+    
+            var marker_cluster_946e5756f65f406259eb38bc696d275a = L.markerClusterGroup(
+                {}
+            );
+            map_dff0d6d5fc1e261ee175529820a6d874.addLayer(marker_cluster_946e5756f65f406259eb38bc696d275a);
+        
+    
+            var marker_4e9917a7704194630919e3c003e43813 = L.marker(
+                [-1.19519, 36.83977],
+                {}
+            ).addTo(marker_cluster_946e5756f65f406259eb38bc696d275a);
+        
+    
+            var icon_e0d159a67102edab232d28421c12e8b3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4e9917a7704194630919e3c003e43813.setIcon(icon_e0d159a67102edab232d28421c12e8b3);
+        
+    
+        var popup_1a2904e188f936949e00bcd8c6d7a2e7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_702b0cb64598440704c140b52f1d7c62 = $(`<div id="html_702b0cb64598440704c140b52f1d7c62" style="width: 100.0%; height: 100.0%;">Adele Dejak Studio</div>`)[0];
+            popup_1a2904e188f936949e00bcd8c6d7a2e7.setContent(html_702b0cb64598440704c140b52f1d7c62);
+        
+
+        marker_4e9917a7704194630919e3c003e43813.bindPopup(popup_1a2904e188f936949e00bcd8c6d7a2e7)
+        ;
+
+        
+    
+    
+            var marker_2267ca421e5f9f20c4a6fb20f6964fe5 = L.marker(
+                [-1.34667, 36.71922],
+                {}
+            ).addTo(marker_cluster_946e5756f65f406259eb38bc696d275a);
+        
+    
+            var icon_da049b50e1357bf632f67e3312209081 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2267ca421e5f9f20c4a6fb20f6964fe5.setIcon(icon_da049b50e1357bf632f67e3312209081);
+        
+    
+        var popup_a2c2a8f22c018ebbb484496604b78f17 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_591aaf0ee6e677cca31101b4373e6019 = $(`<div id="html_591aaf0ee6e677cca31101b4373e6019" style="width: 100.0%; height: 100.0%;">Hemingways Boutique - Karen</div>`)[0];
+            popup_a2c2a8f22c018ebbb484496604b78f17.setContent(html_591aaf0ee6e677cca31101b4373e6019);
+        
+
+        marker_2267ca421e5f9f20c4a6fb20f6964fe5.bindPopup(popup_a2c2a8f22c018ebbb484496604b78f17)
+        ;
+
+        
+    
+    
+            var marker_dd4ac2dd31763dc76c5730285ef35985 = L.marker(
+                [-1.34667, 36.71922],
+                {}
+            ).addTo(marker_cluster_946e5756f65f406259eb38bc696d275a);
+        
+    
+            var icon_66e874b2ce55ba94a0bf8d01822e76a8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_dd4ac2dd31763dc76c5730285ef35985.setIcon(icon_66e874b2ce55ba94a0bf8d01822e76a8);
+        
+    
+        var popup_f1dff1b4e6ba8b2f01c91e36de8db93b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cbb84d39369c3c21b637ca5962d81787 = $(`<div id="html_cbb84d39369c3c21b637ca5962d81787" style="width: 100.0%; height: 100.0%;">Hemingways Eden - Karen</div>`)[0];
+            popup_f1dff1b4e6ba8b2f01c91e36de8db93b.setContent(html_cbb84d39369c3c21b637ca5962d81787);
+        
+
+        marker_dd4ac2dd31763dc76c5730285ef35985.bindPopup(popup_f1dff1b4e6ba8b2f01c91e36de8db93b)
+        ;
+
+        
+    
+    
+            var marker_dbb0557f3d83047dad7cec6249679a74 = L.marker(
+                [0.00548, 37.06597],
+                {}
+            ).addTo(marker_cluster_946e5756f65f406259eb38bc696d275a);
+        
+    
+            var icon_b17300121faac9607ad1b6f46e0dda3c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_dbb0557f3d83047dad7cec6249679a74.setIcon(icon_b17300121faac9607ad1b6f46e0dda3c);
+        
+    
+        var popup_f70b45b6410182bd70ef1b425541cf6e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8182eb4b4ea48e1a2e3e9f48de9a5998 = $(`<div id="html_8182eb4b4ea48e1a2e3e9f48de9a5998" style="width: 100.0%; height: 100.0%;">Segera Hotel - Nanyuki</div>`)[0];
+            popup_f70b45b6410182bd70ef1b425541cf6e.setContent(html_8182eb4b4ea48e1a2e3e9f48de9a5998);
+        
+
+        marker_dbb0557f3d83047dad7cec6249679a74.bindPopup(popup_f70b45b6410182bd70ef1b425541cf6e)
+        ;
+
+        
+    
+    
+            var marker_cf30a66a9d92f6d9ef389b9acee79469 = L.marker(
+                [-1.26676, 36.81105],
+                {}
+            ).addTo(marker_cluster_946e5756f65f406259eb38bc696d275a);
+        
+    
+            var icon_47d13e44d82b838a09290716632bd02e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cf30a66a9d92f6d9ef389b9acee79469.setIcon(icon_47d13e44d82b838a09290716632bd02e);
+        
+    
+        var popup_5fa44b73ba5b2b885f7f73138c732871 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e6ef23e518e068c90f2a93e0de68340a = $(`<div id="html_e6ef23e518e068c90f2a93e0de68340a" style="width: 100.0%; height: 100.0%;">Jamaa at Artcaffe Market - Westlands</div>`)[0];
+            popup_5fa44b73ba5b2b885f7f73138c732871.setContent(html_e6ef23e518e068c90f2a93e0de68340a);
+        
+
+        marker_cf30a66a9d92f6d9ef389b9acee79469.bindPopup(popup_5fa44b73ba5b2b885f7f73138c732871)
+        ;
+
+        
+    
+    
+            var marker_9179947e317466103e1b7b751719c876 = L.marker(
+                [-1.23333, 36.80194],
+                {}
+            ).addTo(marker_cluster_946e5756f65f406259eb38bc696d275a);
+        
+    
+            var icon_3f6be5aaec4e8afb3429880ad6905fd1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9179947e317466103e1b7b751719c876.setIcon(icon_3f6be5aaec4e8afb3429880ad6905fd1);
+        
+    
+        var popup_e1b218646ee2327393cb563a981250b7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_94fa1521d505ce9a981828a633c17f36 = $(`<div id="html_94fa1521d505ce9a981828a633c17f36" style="width: 100.0%; height: 100.0%;">Adele Dejak Store - Village Market</div>`)[0];
+            popup_e1b218646ee2327393cb563a981250b7.setContent(html_94fa1521d505ce9a981828a633c17f36);
+        
+
+        marker_9179947e317466103e1b7b751719c876.bindPopup(popup_e1b218646ee2327393cb563a981250b7)
+        ;
+
+        
+    
+    
+            var marker_52ea513827a29744f7a44778c100d935 = L.marker(
+                [-24.9784, 31.544],
+                {}
+            ).addTo(marker_cluster_946e5756f65f406259eb38bc696d275a);
+        
+    
+            var icon_c92bd373a0b7d7b88883d4a2ad19208c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_52ea513827a29744f7a44778c100d935.setIcon(icon_c92bd373a0b7d7b88883d4a2ad19208c);
+        
+    
+        var popup_4f9620bd1f4f49fea3580fb22f9269a3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bf71a5f53981894a6a880b79f65815b9 = $(`<div id="html_bf71a5f53981894a6a880b79f65815b9" style="width: 100.0%; height: 100.0%;">Sabi Sabi (African Cultural Tours)</div>`)[0];
+            popup_4f9620bd1f4f49fea3580fb22f9269a3.setContent(html_bf71a5f53981894a6a880b79f65815b9);
+        
+
+        marker_52ea513827a29744f7a44778c100d935.bindPopup(popup_4f9620bd1f4f49fea3580fb22f9269a3)
+        ;
+
+        
+    
+    
+            var marker_b400d1e2ec768e6dba40e214707f693e = L.marker(
+                [-26.5225, 31.4659],
+                {}
+            ).addTo(marker_cluster_946e5756f65f406259eb38bc696d275a);
+        
+    
+            var icon_752bed4935ed9f340782e3aeaf03fce5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b400d1e2ec768e6dba40e214707f693e.setIcon(icon_752bed4935ed9f340782e3aeaf03fce5);
+        
+    
+        var popup_7574ed3befc786c54a2d2aa5ec1f76c9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9a94e4de00183add85cd74cc389a4552 = $(`<div id="html_9a94e4de00183add85cd74cc389a4552" style="width: 100.0%; height: 100.0%;">Pret Afriquer - Swaziland</div>`)[0];
+            popup_7574ed3befc786c54a2d2aa5ec1f76c9.setContent(html_9a94e4de00183add85cd74cc389a4552);
+        
+
+        marker_b400d1e2ec768e6dba40e214707f693e.bindPopup(popup_7574ed3befc786c54a2d2aa5ec1f76c9)
+        ;
+
+        
+    
+    
+            var marker_a585fc49c17879b93650cf6758e99459 = L.marker(
+                [-26.2041, 28.0473],
+                {}
+            ).addTo(marker_cluster_946e5756f65f406259eb38bc696d275a);
+        
+    
+            var icon_adf2c53293e15d2cfa107f8c4aa8ebf2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a585fc49c17879b93650cf6758e99459.setIcon(icon_adf2c53293e15d2cfa107f8c4aa8ebf2);
+        
+    
+        var popup_f377586d2a2604f3ef013cb414dbcac1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_df0e05ed6bf9a6d79c4a50d35a72a0ee = $(`<div id="html_df0e05ed6bf9a6d79c4a50d35a72a0ee" style="width: 100.0%; height: 100.0%;">Africa Fashion International - Johannesburg</div>`)[0];
+            popup_f377586d2a2604f3ef013cb414dbcac1.setContent(html_df0e05ed6bf9a6d79c4a50d35a72a0ee);
+        
+
+        marker_a585fc49c17879b93650cf6758e99459.bindPopup(popup_f377586d2a2604f3ef013cb414dbcac1)
+        ;
+
+        
+    
+    
+            var marker_9c74b85405d819cf50f92e4884879b58 = L.marker(
+                [-33.9249, 18.4241],
+                {}
+            ).addTo(marker_cluster_946e5756f65f406259eb38bc696d275a);
+        
+    
+            var icon_f9b94b630546c182ec9bbd43ae47f7cd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9c74b85405d819cf50f92e4884879b58.setIcon(icon_f9b94b630546c182ec9bbd43ae47f7cd);
+        
+    
+        var popup_4a7de9a903e7e7968ac18f481985729d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_97ff758d71f4ce38c0674fed10b4c58a = $(`<div id="html_97ff758d71f4ce38c0674fed10b4c58a" style="width: 100.0%; height: 100.0%;">AAFRICAA PTY LTD - Cape Town</div>`)[0];
+            popup_4a7de9a903e7e7968ac18f481985729d.setContent(html_97ff758d71f4ce38c0674fed10b4c58a);
+        
+
+        marker_9c74b85405d819cf50f92e4884879b58.bindPopup(popup_4a7de9a903e7e7968ac18f481985729d)
+        ;
+
+        
+    
+    
+            var marker_318f537509bfec00e3d53a06f7bbfc5f = L.marker(
+                [-33.9249, 18.4241],
+                {}
+            ).addTo(marker_cluster_946e5756f65f406259eb38bc696d275a);
+        
+    
+            var icon_f4daa4d823a4ab5007f0bb2f7b894101 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_318f537509bfec00e3d53a06f7bbfc5f.setIcon(icon_f4daa4d823a4ab5007f0bb2f7b894101);
+        
+    
+        var popup_37c7a9c74dd81c2b2cc22c9e725641c2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c64f36b25ba606d19d9397a322709afa = $(`<div id="html_c64f36b25ba606d19d9397a322709afa" style="width: 100.0%; height: 100.0%;">Design Network Africa - Cape Town</div>`)[0];
+            popup_37c7a9c74dd81c2b2cc22c9e725641c2.setContent(html_c64f36b25ba606d19d9397a322709afa);
+        
+
+        marker_318f537509bfec00e3d53a06f7bbfc5f.bindPopup(popup_37c7a9c74dd81c2b2cc22c9e725641c2)
+        ;
+
+        
+    
+    
+            var marker_8d080214f09c2ff790f055df04424d65 = L.marker(
+                [6.5244, 3.3792],
+                {}
+            ).addTo(marker_cluster_946e5756f65f406259eb38bc696d275a);
+        
+    
+            var icon_7b8b1d7a7f2b25c6c898954a6244aa81 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8d080214f09c2ff790f055df04424d65.setIcon(icon_7b8b1d7a7f2b25c6c898954a6244aa81);
+        
+    
+        var popup_22caf3b6c97f693a02f67710df3d8412 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0f93b04df688ca5b087ca72aa7be0efe = $(`<div id="html_0f93b04df688ca5b087ca72aa7be0efe" style="width: 100.0%; height: 100.0%;">Alara Multiconceptional Store - Nigeria</div>`)[0];
+            popup_22caf3b6c97f693a02f67710df3d8412.setContent(html_0f93b04df688ca5b087ca72aa7be0efe);
+        
+
+        marker_8d080214f09c2ff790f055df04424d65.bindPopup(popup_22caf3b6c97f693a02f67710df3d8412)
+        ;
+
+        
+    
+    
+            var marker_26152de9806ed333c9ab093fb4871228 = L.marker(
+                [-3.3853, 35.6372],
+                {}
+            ).addTo(marker_cluster_946e5756f65f406259eb38bc696d275a);
+        
+    
+            var icon_efdf16077ac24b32e2b4a0caa59290c1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_26152de9806ed333c9ab093fb4871228.setIcon(icon_efdf16077ac24b32e2b4a0caa59290c1);
+        
+    
+        var popup_03e45a3bc0ada1098e9c6cf422f2f969 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_49476650f9b6ed0446fcecb3cdf1cd3c = $(`<div id="html_49476650f9b6ed0446fcecb3cdf1cd3c" style="width: 100.0%; height: 100.0%;">Chemchem Safaris - Tanzania</div>`)[0];
+            popup_03e45a3bc0ada1098e9c6cf422f2f969.setContent(html_49476650f9b6ed0446fcecb3cdf1cd3c);
+        
+
+        marker_26152de9806ed333c9ab093fb4871228.bindPopup(popup_03e45a3bc0ada1098e9c6cf422f2f969)
+        ;
+
+        
+    
+    
+            var marker_d344869749141e2abb3339aad7ade816 = L.marker(
+                [-4.6796, 55.492],
+                {}
+            ).addTo(marker_cluster_946e5756f65f406259eb38bc696d275a);
+        
+    
+            var icon_4f697bd8507e7582b27484464d072742 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d344869749141e2abb3339aad7ade816.setIcon(icon_4f697bd8507e7582b27484464d072742);
+        
+    
+        var popup_59049dd5daa481b2af16d8d6721856a0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_83df9d66af676107632791985f0f564a = $(`<div id="html_83df9d66af676107632791985f0f564a" style="width: 100.0%; height: 100.0%;">Laboutik – Six Senses – Seychelles</div>`)[0];
+            popup_59049dd5daa481b2af16d8d6721856a0.setContent(html_83df9d66af676107632791985f0f564a);
+        
+
+        marker_d344869749141e2abb3339aad7ade816.bindPopup(popup_59049dd5daa481b2af16d8d6721856a0)
+        ;
+
+        
+    
+    
+            var marker_34e7478ed2aedf907711385e33816aed = L.marker(
+                [34.0209, -6.8416],
+                {}
+            ).addTo(marker_cluster_946e5756f65f406259eb38bc696d275a);
+        
+    
+            var icon_4484db8c137c715731f767aa15d6085f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_34e7478ed2aedf907711385e33816aed.setIcon(icon_4484db8c137c715731f767aa15d6085f);
+        
+    
+        var popup_ce6497139785c57a7ee22875b8c5338b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_661b662ccd9f3bbb553a60f4f603adf9 = $(`<div id="html_661b662ccd9f3bbb553a60f4f603adf9" style="width: 100.0%; height: 100.0%;">Ofendji - Rabat, Morocco</div>`)[0];
+            popup_ce6497139785c57a7ee22875b8c5338b.setContent(html_661b662ccd9f3bbb553a60f4f603adf9);
+        
+
+        marker_34e7478ed2aedf907711385e33816aed.bindPopup(popup_ce6497139785c57a7ee22875b8c5338b)
+        ;
+
+        
+    
+    
+            var marker_8520a0f5f5a998a0a9844135e2162bae = L.marker(
+                [40.7128, -74.006],
+                {}
+            ).addTo(marker_cluster_946e5756f65f406259eb38bc696d275a);
+        
+    
+            var icon_8cc890e1e5227195db24638977405565 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8520a0f5f5a998a0a9844135e2162bae.setIcon(icon_8cc890e1e5227195db24638977405565);
+        
+    
+        var popup_75a6d15efc2877438b466e424c919a8e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f0fa670a8035d023fb3b4ef403bc73c2 = $(`<div id="html_f0fa670a8035d023fb3b4ef403bc73c2" style="width: 100.0%; height: 100.0%;">Luxe Lion - New York</div>`)[0];
+            popup_75a6d15efc2877438b466e424c919a8e.setContent(html_f0fa670a8035d023fb3b4ef403bc73c2);
+        
+
+        marker_8520a0f5f5a998a0a9844135e2162bae.bindPopup(popup_75a6d15efc2877438b466e424c919a8e)
+        ;
+
+        
+    
+    
+            var marker_a37ac8b2f288e4e0a46b200723d5806b = L.marker(
+                [34.0522, -118.2437],
+                {}
+            ).addTo(marker_cluster_946e5756f65f406259eb38bc696d275a);
+        
+    
+            var icon_d3267bce1b6360106423cafec4b1401b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a37ac8b2f288e4e0a46b200723d5806b.setIcon(icon_d3267bce1b6360106423cafec4b1401b);
+        
+    
+        var popup_3cc3710f2c20af4c1db81a38a142569a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_185e2777c8c002d58be6e7d9db8ad31d = $(`<div id="html_185e2777c8c002d58be6e7d9db8ad31d" style="width: 100.0%; height: 100.0%;">Wer - Los Angeles</div>`)[0];
+            popup_3cc3710f2c20af4c1db81a38a142569a.setContent(html_185e2777c8c002d58be6e7d9db8ad31d);
+        
+
+        marker_a37ac8b2f288e4e0a46b200723d5806b.bindPopup(popup_3cc3710f2c20af4c1db81a38a142569a)
+        ;
+
+        
+    
+    
+            var marker_0e5f570b5b0dc5f61a62a449d5d741ee = L.marker(
+                [40.7128, -74.006],
+                {}
+            ).addTo(marker_cluster_946e5756f65f406259eb38bc696d275a);
+        
+    
+            var icon_90ef86e731473d97c10b155014f7ac33 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0e5f570b5b0dc5f61a62a449d5d741ee.setIcon(icon_90ef86e731473d97c10b155014f7ac33);
+        
+    
+        var popup_109426e4beef7ea67be176959298e55e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f83f020f55800e2a3261f9f044396d6a = $(`<div id="html_f83f020f55800e2a3261f9f044396d6a" style="width: 100.0%; height: 100.0%;">54Kibo</div>`)[0];
+            popup_109426e4beef7ea67be176959298e55e.setContent(html_f83f020f55800e2a3261f9f044396d6a);
+        
+
+        marker_0e5f570b5b0dc5f61a62a449d5d741ee.bindPopup(popup_109426e4beef7ea67be176959298e55e)
+        ;
+
+        
+    
+    
+            var marker_0389950e7b657a1653002ba3d4dc7267 = L.marker(
+                [40.7128, -74.006],
+                {}
+            ).addTo(marker_cluster_946e5756f65f406259eb38bc696d275a);
+        
+    
+            var icon_240a0ddbc94fce2ab784d75e1a62fdb8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0389950e7b657a1653002ba3d4dc7267.setIcon(icon_240a0ddbc94fce2ab784d75e1a62fdb8);
+        
+    
+        var popup_5fb2fdc5fdf9db4fba2b4363a8c6b866 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6eda5fa4f6213ec1906d33ec41dbaced = $(`<div id="html_6eda5fa4f6213ec1906d33ec41dbaced" style="width: 100.0%; height: 100.0%;">Playing Mantis - New York</div>`)[0];
+            popup_5fb2fdc5fdf9db4fba2b4363a8c6b866.setContent(html_6eda5fa4f6213ec1906d33ec41dbaced);
+        
+
+        marker_0389950e7b657a1653002ba3d4dc7267.bindPopup(popup_5fb2fdc5fdf9db4fba2b4363a8c6b866)
+        ;
+
+        
+    
+    
+            var marker_f58b911374e54809b8a0b23351854273 = L.marker(
+                [40.7128, -74.006],
+                {}
+            ).addTo(marker_cluster_946e5756f65f406259eb38bc696d275a);
+        
+    
+            var icon_5b2a4ad5d3c1ddd4eaa33f8c12994201 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f58b911374e54809b8a0b23351854273.setIcon(icon_5b2a4ad5d3c1ddd4eaa33f8c12994201);
+        
+    
+        var popup_72faa106756c39acfa82baae8d0c3e13 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2111e034e6d6da066b090ad5afa7503a = $(`<div id="html_2111e034e6d6da066b090ad5afa7503a" style="width: 100.0%; height: 100.0%;">Industrie Africa</div>`)[0];
+            popup_72faa106756c39acfa82baae8d0c3e13.setContent(html_2111e034e6d6da066b090ad5afa7503a);
+        
+
+        marker_f58b911374e54809b8a0b23351854273.bindPopup(popup_72faa106756c39acfa82baae8d0c3e13)
+        ;
+
+        
+    
+    
+            var marker_df5b4975ccbc8f5266e8763e4745e60b = L.marker(
+                [29.9511, -90.0715],
+                {}
+            ).addTo(marker_cluster_946e5756f65f406259eb38bc696d275a);
+        
+    
+            var icon_807e6ea4154abcc43770fb5555714a59 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_df5b4975ccbc8f5266e8763e4745e60b.setIcon(icon_807e6ea4154abcc43770fb5555714a59);
+        
+    
+        var popup_14bbe96c536f7df8e4fc9fc02e87c121 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8d95cdfde679a739426d630a0488f32e = $(`<div id="html_8d95cdfde679a739426d630a0488f32e" style="width: 100.0%; height: 100.0%;">Saint Claude Social Club - New Orleans</div>`)[0];
+            popup_14bbe96c536f7df8e4fc9fc02e87c121.setContent(html_8d95cdfde679a739426d630a0488f32e);
+        
+
+        marker_df5b4975ccbc8f5266e8763e4745e60b.bindPopup(popup_14bbe96c536f7df8e4fc9fc02e87c121)
+        ;
+
+        
+    
+    
+            var marker_d1b7053f03df88ce3e20c6466a485976 = L.marker(
+                [39.7392, -104.9903],
+                {}
+            ).addTo(marker_cluster_946e5756f65f406259eb38bc696d275a);
+        
+    
+            var icon_6dea1cede0c89c890ed85000316b30d2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d1b7053f03df88ce3e20c6466a485976.setIcon(icon_6dea1cede0c89c890ed85000316b30d2);
+        
+    
+        var popup_ed61c38d17117540da8b84c73b2f38c3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_66375a84db68f7fcb7b975511ee5eddd = $(`<div id="html_66375a84db68f7fcb7b975511ee5eddd" style="width: 100.0%; height: 100.0%;">Let Me Show You Different - Denver</div>`)[0];
+            popup_ed61c38d17117540da8b84c73b2f38c3.setContent(html_66375a84db68f7fcb7b975511ee5eddd);
+        
+
+        marker_d1b7053f03df88ce3e20c6466a485976.bindPopup(popup_ed61c38d17117540da8b84c73b2f38c3)
+        ;
+
+        
+    
+    
+            var marker_314a98deb13e4569ed0db08ad5162a28 = L.marker(
+                [39.7376, -104.9903],
+                {}
+            ).addTo(marker_cluster_946e5756f65f406259eb38bc696d275a);
+        
+    
+            var icon_765e54afc974bfefff5da19d2821c1d7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_314a98deb13e4569ed0db08ad5162a28.setIcon(icon_765e54afc974bfefff5da19d2821c1d7);
+        
+    
+        var popup_7abd1866914317237e8e0e6f70529d35 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_831d8128b35562b220201af1191b47c2 = $(`<div id="html_831d8128b35562b220201af1191b47c2" style="width: 100.0%; height: 100.0%;">Denver Art Museum - Denver</div>`)[0];
+            popup_7abd1866914317237e8e0e6f70529d35.setContent(html_831d8128b35562b220201af1191b47c2);
+        
+
+        marker_314a98deb13e4569ed0db08ad5162a28.bindPopup(popup_7abd1866914317237e8e0e6f70529d35)
+        ;
+
+        
+    
+    
+            var marker_e6f6011129cae58a28b56d0fb8b3ab45 = L.marker(
+                [40.6714, -73.963],
+                {}
+            ).addTo(marker_cluster_946e5756f65f406259eb38bc696d275a);
+        
+    
+            var icon_2072c93434ed71d4af3a8022bab42244 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e6f6011129cae58a28b56d0fb8b3ab45.setIcon(icon_2072c93434ed71d4af3a8022bab42244);
+        
+    
+        var popup_16cde2efe212e2472df0c0608f13dbcf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_99ae382906e3000db03811d1e86413de = $(`<div id="html_99ae382906e3000db03811d1e86413de" style="width: 100.0%; height: 100.0%;">Brooklyn Museum</div>`)[0];
+            popup_16cde2efe212e2472df0c0608f13dbcf.setContent(html_99ae382906e3000db03811d1e86413de);
+        
+
+        marker_e6f6011129cae58a28b56d0fb8b3ab45.bindPopup(popup_16cde2efe212e2472df0c0608f13dbcf)
+        ;
+
+        
+    
+    
+            var marker_72cccdf05737061e260571af8259cc41 = L.marker(
+                [-34.9011, -56.1645],
+                {}
+            ).addTo(marker_cluster_946e5756f65f406259eb38bc696d275a);
+        
+    
+            var icon_a66189532836b54847e113525c019ecc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_72cccdf05737061e260571af8259cc41.setIcon(icon_a66189532836b54847e113525c019ecc);
+        
+    
+        var popup_e0ed35c66650959117aa65d7d05dbb9e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a0e6fb677cefc08479cfe85bc26ceac8 = $(`<div id="html_a0e6fb677cefc08479cfe85bc26ceac8" style="width: 100.0%; height: 100.0%;">Magma - Uruguay</div>`)[0];
+            popup_e0ed35c66650959117aa65d7d05dbb9e.setContent(html_a0e6fb677cefc08479cfe85bc26ceac8);
+        
+
+        marker_72cccdf05737061e260571af8259cc41.bindPopup(popup_e0ed35c66650959117aa65d7d05dbb9e)
+        ;
+
+        
+    
+    
+            var marker_13bf7234cc6fa5ab339bbec386901913 = L.marker(
+                [45.5017, -73.5673],
+                {}
+            ).addTo(marker_cluster_946e5756f65f406259eb38bc696d275a);
+        
+    
+            var icon_d8d7f1fa0b698200ddd2fbf4b8de2929 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_13bf7234cc6fa5ab339bbec386901913.setIcon(icon_d8d7f1fa0b698200ddd2fbf4b8de2929);
+        
+    
+        var popup_b60fb338e9e6baac721411e43c7c7f60 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a31fa7355ee7e9f461364e45cdfb9278 = $(`<div id="html_a31fa7355ee7e9f461364e45cdfb9278" style="width: 100.0%; height: 100.0%;">Nyumba Design - Montreal, Canada</div>`)[0];
+            popup_b60fb338e9e6baac721411e43c7c7f60.setContent(html_a31fa7355ee7e9f461364e45cdfb9278);
+        
+
+        marker_13bf7234cc6fa5ab339bbec386901913.bindPopup(popup_b60fb338e9e6baac721411e43c7c7f60)
+        ;
+
+        
+    
+    
+            var marker_98825d6315260acd02ebef8dbde81bd8 = L.marker(
+                [45.5017, -73.5673],
+                {}
+            ).addTo(marker_cluster_946e5756f65f406259eb38bc696d275a);
+        
+    
+            var icon_1d51e9baeb3094a6d620112496c559ba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_98825d6315260acd02ebef8dbde81bd8.setIcon(icon_1d51e9baeb3094a6d620112496c559ba);
+        
+    
+        var popup_94f34d4847b08204ef37c932a025022b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6ebad7c8d09971489801d0c571576334 = $(`<div id="html_6ebad7c8d09971489801d0c571576334" style="width: 100.0%; height: 100.0%;">LNK - Canada</div>`)[0];
+            popup_94f34d4847b08204ef37c932a025022b.setContent(html_6ebad7c8d09971489801d0c571576334);
+        
+
+        marker_98825d6315260acd02ebef8dbde81bd8.bindPopup(popup_94f34d4847b08204ef37c932a025022b)
+        ;
+
+        
+    
+    
+            var marker_14719dfd9e6f1d0c2111beab3717b5f3 = L.marker(
+                [51.5098, -0.118],
+                {}
+            ).addTo(marker_cluster_946e5756f65f406259eb38bc696d275a);
+        
+    
+            var icon_575b35774bb8900dd0c4b50c8f99206d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_14719dfd9e6f1d0c2111beab3717b5f3.setIcon(icon_575b35774bb8900dd0c4b50c8f99206d);
+        
+    
+        var popup_569d4040bf45417c18372f523f1d91a1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_afc53945f8d048ad6321541bce3b03b1 = $(`<div id="html_afc53945f8d048ad6321541bce3b03b1" style="width: 100.0%; height: 100.0%;">Lalibella - UK</div>`)[0];
+            popup_569d4040bf45417c18372f523f1d91a1.setContent(html_afc53945f8d048ad6321541bce3b03b1);
+        
+
+        marker_14719dfd9e6f1d0c2111beab3717b5f3.bindPopup(popup_569d4040bf45417c18372f523f1d91a1)
+        ;
+
+        
+    
+    
+            var marker_13f2ca52b305b95f198aa4aac3ee18eb = L.marker(
+                [51.5074, -0.1278],
+                {}
+            ).addTo(marker_cluster_946e5756f65f406259eb38bc696d275a);
+        
+    
+            var icon_0edb404d9080c22b00687594e37076cd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_13f2ca52b305b95f198aa4aac3ee18eb.setIcon(icon_0edb404d9080c22b00687594e37076cd);
+        
+    
+        var popup_7e36c742b72850431f6be06efa6b74f9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_656d1be664199b4df59cfa598a83cf89 = $(`<div id="html_656d1be664199b4df59cfa598a83cf89" style="width: 100.0%; height: 100.0%;">Tribeur Ltd - London</div>`)[0];
+            popup_7e36c742b72850431f6be06efa6b74f9.setContent(html_656d1be664199b4df59cfa598a83cf89);
+        
+
+        marker_13f2ca52b305b95f198aa4aac3ee18eb.bindPopup(popup_7e36c742b72850431f6be06efa6b74f9)
+        ;
+
+        
+    
+    
+            var marker_a834e3ff21d75c6fe4cb29f21485b9ce = L.marker(
+                [46.2044, 6.1432],
+                {}
+            ).addTo(marker_cluster_946e5756f65f406259eb38bc696d275a);
+        
+    
+            var icon_7996a87c9edf2d9e6f2c0528ede136c8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a834e3ff21d75c6fe4cb29f21485b9ce.setIcon(icon_7996a87c9edf2d9e6f2c0528ede136c8);
+        
+    
+        var popup_338228e9ec6cb9ba656f173bc12a0c66 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b07934b07fde8b62f98c5158eedbf369 = $(`<div id="html_b07934b07fde8b62f98c5158eedbf369" style="width: 100.0%; height: 100.0%;">Ilab Designs - Geneva</div>`)[0];
+            popup_338228e9ec6cb9ba656f173bc12a0c66.setContent(html_b07934b07fde8b62f98c5158eedbf369);
+        
+
+        marker_a834e3ff21d75c6fe4cb29f21485b9ce.bindPopup(popup_338228e9ec6cb9ba656f173bc12a0c66)
+        ;
+
+        
+    
+    
+            var marker_da6ef4da065c4bf053e718d9a6e8f3b8 = L.marker(
+                [51.5098, -0.118],
+                {}
+            ).addTo(marker_cluster_946e5756f65f406259eb38bc696d275a);
+        
+    
+            var icon_e99ec7532f497eb188dc2e1174ea4b81 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_da6ef4da065c4bf053e718d9a6e8f3b8.setIcon(icon_e99ec7532f497eb188dc2e1174ea4b81);
+        
+    
+        var popup_2233ca72d154bf5e9406a4525a57e8ff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d28bd87e4867f6f71c8a4af3e0610450 = $(`<div id="html_d28bd87e4867f6f71c8a4af3e0610450" style="width: 100.0%; height: 100.0%;">African Centre - UK</div>`)[0];
+            popup_2233ca72d154bf5e9406a4525a57e8ff.setContent(html_d28bd87e4867f6f71c8a4af3e0610450);
+        
+
+        marker_da6ef4da065c4bf053e718d9a6e8f3b8.bindPopup(popup_2233ca72d154bf5e9406a4525a57e8ff)
+        ;
+
+        
+    
+    
+            var marker_3e38b73a1022a8593130dcc8a60cf3b7 = L.marker(
+                [50.8503, 4.3517],
+                {}
+            ).addTo(marker_cluster_946e5756f65f406259eb38bc696d275a);
+        
+    
+            var icon_684497889fe928f1030e4c4ed627d1e2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3e38b73a1022a8593130dcc8a60cf3b7.setIcon(icon_684497889fe928f1030e4c4ed627d1e2);
+        
+    
+        var popup_d5a96938ec7e1cc3a8cd2238e23ceae8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e83300152edb44404813d6acefd93fcc = $(`<div id="html_e83300152edb44404813d6acefd93fcc" style="width: 100.0%; height: 100.0%;">Muntu Design - Belgium</div>`)[0];
+            popup_d5a96938ec7e1cc3a8cd2238e23ceae8.setContent(html_e83300152edb44404813d6acefd93fcc);
+        
+
+        marker_3e38b73a1022a8593130dcc8a60cf3b7.bindPopup(popup_d5a96938ec7e1cc3a8cd2238e23ceae8)
+        ;
+
+        
+    
+    
+            var marker_d4a2c927225193e69f4661d9efb8b2d6 = L.marker(
+                [51.1657, 10.4515],
+                {}
+            ).addTo(marker_cluster_946e5756f65f406259eb38bc696d275a);
+        
+    
+            var icon_81c3df43cf00c9a4a7ac0b734d1822cf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d4a2c927225193e69f4661d9efb8b2d6.setIcon(icon_81c3df43cf00c9a4a7ac0b734d1822cf);
+        
+    
+        var popup_602e58922c0071e2aca26db584e2190d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9fec02b1adaa27c6214a6186587726da = $(`<div id="html_9fec02b1adaa27c6214a6186587726da" style="width: 100.0%; height: 100.0%;">Mos Interior Art - Germany</div>`)[0];
+            popup_602e58922c0071e2aca26db584e2190d.setContent(html_9fec02b1adaa27c6214a6186587726da);
+        
+
+        marker_d4a2c927225193e69f4661d9efb8b2d6.bindPopup(popup_602e58922c0071e2aca26db584e2190d)
+        ;
+
+        
+    
+    
+            var marker_49dcdbc0e715d819ce41964925936bcd = L.marker(
+                [51.4966, -0.1722],
+                {}
+            ).addTo(marker_cluster_946e5756f65f406259eb38bc696d275a);
+        
+    
+            var icon_0ddf3f97664d9aa7d82e675865afc1d7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_49dcdbc0e715d819ce41964925936bcd.setIcon(icon_0ddf3f97664d9aa7d82e675865afc1d7);
+        
+    
+        var popup_95240a94830d9403a576cfcc1b7a9831 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_77f22f10087a56411df63030f6474d21 = $(`<div id="html_77f22f10087a56411df63030f6474d21" style="width: 100.0%; height: 100.0%;">Victoria and Albert (V&A) Museum - London</div>`)[0];
+            popup_95240a94830d9403a576cfcc1b7a9831.setContent(html_77f22f10087a56411df63030f6474d21);
+        
+
+        marker_49dcdbc0e715d819ce41964925936bcd.bindPopup(popup_95240a94830d9403a576cfcc1b7a9831)
+        ;
+
+        
+    
+    
+            var marker_6f1e8ce3642da7ae69092f389073e1c9 = L.marker(
+                [48.8566, 2.3522],
+                {}
+            ).addTo(marker_cluster_946e5756f65f406259eb38bc696d275a);
+        
+    
+            var icon_147b5ad582eaa582779dc7c035cf7645 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6f1e8ce3642da7ae69092f389073e1c9.setIcon(icon_147b5ad582eaa582779dc7c035cf7645);
+        
+    
+        var popup_b59fd6b2a3c846280f23ab6c2eba26a1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_87535f640e884dc762f3c7abb6208fea = $(`<div id="html_87535f640e884dc762f3c7abb6208fea" style="width: 100.0%; height: 100.0%;">Annike - France</div>`)[0];
+            popup_b59fd6b2a3c846280f23ab6c2eba26a1.setContent(html_87535f640e884dc762f3c7abb6208fea);
+        
+
+        marker_6f1e8ce3642da7ae69092f389073e1c9.bindPopup(popup_b59fd6b2a3c846280f23ab6c2eba26a1)
+        ;
+
+        
+    
+    
+            var marker_ab10e8256be8f44998ace0acf2a1db3a = L.marker(
+                [1.3521, 103.8198],
+                {}
+            ).addTo(marker_cluster_946e5756f65f406259eb38bc696d275a);
+        
+    
+            var icon_30c37bb08fc12a117e7482fbe6ee010f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ab10e8256be8f44998ace0acf2a1db3a.setIcon(icon_30c37bb08fc12a117e7482fbe6ee010f);
+        
+    
+        var popup_326cb02ba3ddbe3779f878a4fa4b7689 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_11081ec3dae46887286c9a3d90d517eb = $(`<div id="html_11081ec3dae46887286c9a3d90d517eb" style="width: 100.0%; height: 100.0%;">House of Nell LLP - Singapore</div>`)[0];
+            popup_326cb02ba3ddbe3779f878a4fa4b7689.setContent(html_11081ec3dae46887286c9a3d90d517eb);
+        
+
+        marker_ab10e8256be8f44998ace0acf2a1db3a.bindPopup(popup_326cb02ba3ddbe3779f878a4fa4b7689)
+        ;
+
+        
+    
+    
+            var marker_b0c140b6b3e86a075a004efba6f234e3 = L.marker(
+                [-33.8688, 151.2093],
+                {}
+            ).addTo(marker_cluster_946e5756f65f406259eb38bc696d275a);
+        
+    
+            var icon_57f8f92eaeb70802b9f9ba03ca088f96 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b0c140b6b3e86a075a004efba6f234e3.setIcon(icon_57f8f92eaeb70802b9f9ba03ca088f96);
+        
+    
+        var popup_6c9907f78e9527d28576443c81524a69 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_89cf8f912c3323f8e5b9df28866484ee = $(`<div id="html_89cf8f912c3323f8e5b9df28866484ee" style="width: 100.0%; height: 100.0%;">Baha’ti International</div>`)[0];
+            popup_6c9907f78e9527d28576443c81524a69.setContent(html_89cf8f912c3323f8e5b9df28866484ee);
+        
+
+        marker_b0c140b6b3e86a075a004efba6f234e3.bindPopup(popup_6c9907f78e9527d28576443c81524a69)
+        ;
+
+        
+    
+    
+            var marker_12e41e7cc7240920e81c23c90e0a61fb = L.marker(
+                [-33.8688, 151.2093],
+                {}
+            ).addTo(marker_cluster_946e5756f65f406259eb38bc696d275a);
+        
+    
+            var icon_290b8fd53b24f2c1265897dc265d63a5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_12e41e7cc7240920e81c23c90e0a61fb.setIcon(icon_290b8fd53b24f2c1265897dc265d63a5);
+        
+    
+        var popup_8c1be1ba25dc52963f66abe0b328e7d6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ea53926a091dd069b482b5ba97b249c4 = $(`<div id="html_ea53926a091dd069b482b5ba97b249c4" style="width: 100.0%; height: 100.0%;">Bisque</div>`)[0];
+            popup_8c1be1ba25dc52963f66abe0b328e7d6.setContent(html_ea53926a091dd069b482b5ba97b249c4);
+        
+
+        marker_12e41e7cc7240920e81c23c90e0a61fb.bindPopup(popup_8c1be1ba25dc52963f66abe0b328e7d6)
+        ;
+
+        
+    
+</script>
+</html>
